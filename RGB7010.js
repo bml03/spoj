@@ -1,0 +1,10 @@
+let sampleNumber = 485;
+let threeDigit = sampleNumber % 1000;
+let twoDigit = sampleNumber % 100;
+let one = sampleNumber % 10;
+let thirdDigit = threeDigit - twoDigit;
+let secondDigit = twoDigit - one;
+let third = thirdDigit / 100;
+let second = secondDigit / 10;
+let answer = third * second * one;
+console.log(answer);
