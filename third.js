@@ -7,7 +7,7 @@ function factorial(n) {
       answer = answer * i;
     }
     return answer;
-  } else {
+  } else { 
     return "number has to be positive.";
   }
 }
