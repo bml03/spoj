@@ -71,13 +71,13 @@ let products = [
   },
 ];
 function mostExp() {
-  let expensive = products[0];
+  let cheap = products[0];
   for (let i = 0; i < 10; i = i + 1) {
-    if (expensive.price < products[i].price) {
-      expensive = products[i];
+    if (cheap.price > products[i].price) {
+      cheap = products[i];
     }
   }
-  return expensive;
+  return cheap;
 }
 let catcher = mostExp();
 console.log(catcher);
