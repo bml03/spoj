@@ -13,7 +13,8 @@ function mins(num1) {
   sec = num1 % 60;
   let minutWsec = num1 - sec;
   let min = minutWsec / 60;
-  return min;
+  a
+  return (a)
 }
 let mySecs = secs(200);
 let myMin = mins(200);
