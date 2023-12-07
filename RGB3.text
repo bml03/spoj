@@ -1,0 +1,6 @@
+function number(a, b, c) {
+  for (let i = a; i <= b; i = i + c) {
+    console.log(i);
+  }
+}
+number(100, 2000, 100);

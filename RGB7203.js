@@ -1,3 +1,1 @@
-function input(a){
-    
-}
+function input(a) {}

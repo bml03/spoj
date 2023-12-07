@@ -11,3 +11,7 @@ let athlets = [
   { name: "Frank", age: 26, scores: [32, 14, 10, 8] },
   { name: "Grace", age: 23, scores: [37, 12, 10, 9] },
 ];
+for (var i = 1; i <= numberOfInputs; i++) {
+  // Create a new input element
+  var input = document.createElement("input");
+}
