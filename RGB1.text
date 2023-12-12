@@ -1,4 +1,0 @@
-let a = 15;
-for (let i = a; i >= 0; i = i - 3) {
-  console.log(i);
-}
