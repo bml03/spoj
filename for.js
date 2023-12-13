@@ -70,9 +70,14 @@ let products = [
     brand: "JBL",
   },
 ];
-function setSale(saleAmout) {
-  for (let i = 0; i < 10; i = i + 1) {
-    products[i].price = products[i].price * (1 - saleAmout / 100);
+// let catcher = products.filter((prod) => {
+//   return console.log(prod.brand);
+// });
+let pol = products.map((a) => {
+  if (a.price < 1000 && a.price > 100) {
+    return a;
   }
-}
-setSale(20); 
+});
+products.sort((num1, num2, sort) => {
+  return sort(num1, num2);
+});
