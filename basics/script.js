@@ -155,20 +155,29 @@ const products = [
       "Advanced electric toothbrush for thorough and effective dental care.",
   },
 ];
-let wheel = products.concat.map((a) => {
+
+function createDiv(prod) {
   const cardDiv = document.createElement("div");
   const cardName = document.createElement("h5");
   const cardBrand = document.createElement("p");
   const cardPrice = document.createElement("p");
   const cardDescrip = document.createElement("p");
+  const cardImage = document.createElement("img");
   cardDiv.setAttribute("class", "card");
-  cardName.innerText = products[a].name;
-  cardBrand.innerText = products[a].brand;
-  cardPrice.innerText = products[a].price;
-  cardDescrip.innerText = products[a].description;
+  cardImage.setAttribute("src", prod.image_url);
+  cardName.innerText = prod.name;
+  cardBrand.innerText = prod.brand;
+  cardPrice.innerText = prod.price;
+  cardDescrip.innerText = prod.description;
   cardDiv.appendChild(cardName);
   cardDiv.appendChild(cardBrand);
   cardDiv.appendChild(cardPrice);
   cardDiv.appendChild(cardDescrip);
+  cardDiv.appendChild(cardImage);
+  root.appendChild(cardDiv);
+  return cardDiv;
+}
+
+let wheel = products.map((i) => {
+  return root.appendChild(createDiv(i));
 });
-root.appendChild(wheel);
