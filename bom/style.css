@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-image: url("https://c1.wallpaperflare.com/path/565/385/156/sunset-brook-green-meadow-june-df867360f0bed19da26bbb3838498c8f.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+}
+.card {
+  width: 150px;
+  height: 100px;
+  background-color: white;
+}
+.container {
+  width: 200px;
+  height: 150pxs;
+}
