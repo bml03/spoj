@@ -5,4 +5,4 @@ function time(hour) {
   hours = hour % 24;
   return console.log(day, +hours);
 }
-let a = time(44);
+let a = time(48);

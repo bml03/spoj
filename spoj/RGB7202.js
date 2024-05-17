@@ -1,10 +1,6 @@
 let word = [
   { element: "IOI" },
-  { element: "IOI" },
-  { element: "IOI" },
-  { element: "IOI" },
-  { element: "IOI" },
-  { element: "IOI" },
+
 ];
 function words() {
   for (let i = 0; i < 3; i = i + 1) {

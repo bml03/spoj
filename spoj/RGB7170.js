@@ -9,4 +9,4 @@ function num(a, b, c) {
   }
 }
 
-num(4, 5, 27);
+num(5,4,10);

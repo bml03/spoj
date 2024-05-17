@@ -11,4 +11,4 @@ function loan(salary, ndsh, passport, id, person, cred, dept) {
     console.log("Sorry, You are not allowed to lend money");
   }
 }
-loan(2300000, "yes", "yes", "no", "no", "yes", 500000);
+loan(2300000, "no", "no", "no", "no", "yes", 500000);

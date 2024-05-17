@@ -70,9 +70,9 @@ let products = [
     brand: "JBL",
   },
 ];
-// let catcher = products.filter((prod) => {
-//   return console.log(prod.brand);
-// });
+let catcher = products.filter((prod) => {
+  return console.log(prod.brand);
+});
 let pol = products.map((a) => {
   if (a.price < 1000 && a.price > 100) {
     return a;
